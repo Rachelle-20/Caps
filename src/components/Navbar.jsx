@@ -5,7 +5,7 @@ import DarkModeToggle from '../components/DarkmodeToggle';
 
 function Navbar({ toggleSidebar, title, darkMode, handleDarkModeToggle }) {
   return (
-    <div className="bg-white dark:bg-gray-800 h-16 order-b dark:border-gray-900 flex items-center justify-between px-4">
+    <div className="bg-white dark:bg-gray-800 h-16 order-b shadow-md dark:border-gray-900 flex items-center justify-between px-4">
       <div className="flex items-center">
         <button
           className="md:hidden text-gray-800 dark:text-gray-200 focus:outline-none"
