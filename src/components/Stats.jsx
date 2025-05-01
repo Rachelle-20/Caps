@@ -2,9 +2,15 @@ import React from "react";
 
 function Stats() {
   return (
+<<<<<<< HEAD
     <div className="flex flex-col gap-3">
       {/* Instructors */}
       <div className="py-5 px-4 rounded-xl border shadow-md bg-gradient-to-r from-red-400 to-red-600 dark:from-red-700 dark:to-red-900 flex flex-col items-center">
+=======
+    <div className="flex flex-col sm:flex-row lg:flex-col gap-3 justify-center w-full">
+      {/* Instructors */}
+      <div className="w-full sm:w-1/3 lg:w-full min-h-[100px] py-5 px-4 rounded-xl border shadow-md bg-gradient-to-r from-red-400 to-red-600 dark:from-red-700 dark:to-red-900 flex flex-col items-center">
+>>>>>>> e51828008bc8668f65bce628aaa04ad6a13fe116
         <div className="flex items-center gap-2">
           <svg className="w-6 h-7 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 20h5v-2a4 4 0 00-3-3.87M9 20H4v-2a4 4 0 013-3.87M14 9a4 4 0 11-8 0 4 4 0 018 0zm7 6v5m-4-5v5m-3-5a4 4 0 00-8 0v5h8v-5z" />
@@ -15,7 +21,11 @@ function Stats() {
       </div>
 
       {/* Completed */}
+<<<<<<< HEAD
       <div className="py-5 px-4 rounded-xl border shadow-md bg-gradient-to-r from-green-400 to-green-600 dark:from-green-700 dark:to-green-900 flex flex-col items-center">
+=======
+      <div className="w-full sm:w-1/3 lg:w-full min-h-[100px] py-5 px-4 rounded-xl border shadow-md bg-gradient-to-r from-green-400 to-green-600 dark:from-green-700 dark:to-green-900 flex flex-col items-center">
+>>>>>>> e51828008bc8668f65bce628aaa04ad6a13fe116
         <div className="flex items-center gap-2">
           <svg className="w-6 h-7 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
@@ -26,7 +36,11 @@ function Stats() {
       </div>
 
       {/* Status */}
+<<<<<<< HEAD
       <div className="py-5 px-4 rounded-xl border shadow-md bg-gradient-to-r from-blue-400 to-blue-600 dark:from-blue-700 dark:to-blue-900 flex flex-col items-center">
+=======
+      <div className="w-full sm:w-1/3 lg:w-full min-h-[100px] py-5 px-4 rounded-xl border shadow-md bg-gradient-to-r from-blue-400 to-blue-600 dark:from-blue-700 dark:to-blue-900 flex flex-col items-center">
+>>>>>>> e51828008bc8668f65bce628aaa04ad6a13fe116
         <div className="flex items-center gap-2">
           <svg className="w-6 h-7 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 2a10 10 0 1 1-10 10h2a8 8 0 1 0 8-8V2z" />

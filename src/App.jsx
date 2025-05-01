@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import MainLayout from './Layout/MainLayout';
 import TDashboard from './pages/Student/TDashboard';
-import Login from './Auth/Login';
-import Signup from './Auth/Signup';
+import SDashboard from './pages/Student/SDashboard';
+import SEvaluations from './pages/Student/SEvaluations';
 
 
 function App() {
@@ -15,6 +15,8 @@ function App() {
         <Route path="/" element={<Navigate to="/login" />} /> */}
         <Route path="*" element={<MainLayout />}>
           <Route path="TDashboard" element={<TDashboard />} />
+          <Route path="SDashboard" element={<SDashboard />} />
+          <Route path="SEvaluations" element={<SEvaluations />} />
           
         </Route>
       </Routes>

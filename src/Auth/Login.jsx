@@ -23,7 +23,11 @@ function Login() {
     if (token) {
       console.log("Received Token:", token); 
       localStorage.setItem("authToken", token); 
+<<<<<<< HEAD
       navigate("/dashboard");
+=======
+      navigate("/SDashboard");
+>>>>>>> e51828008bc8668f65bce628aaa04ad6a13fe116
     }
   }, [location, navigate]);
 
